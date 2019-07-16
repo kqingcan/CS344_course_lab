@@ -10,11 +10,15 @@
 
 建议先不选择安装NVIDIA驱动的选项 安装好了CUDA之后再安装
 
-[参考链接]: https://blog.csdn.net/wanzhen4330/article/details/81699769
+[https://blog.csdn.net/wanzhen4330/article/details/81699769](https://blog.csdn.net/wanzhen4330/article/details/81699769 ) 
 
 接下来安装NVIDIA驱动：
 
-用`sudo  ubuntu-drivers devices`命令来查看自己的显卡适合的驱动型号，然后去英伟达官网（https://www.nvidia.cn/Download/index.aspx?lang=cn）下载相应驱动的安装包，如
+用`sudo  ubuntu-drivers devices`命令来查看自己的显卡适合的驱动型号，然后去英伟达官网
+
+（[https://www.nvidia.cn/Download/index.aspx?lang=cn](https://www.nvidia.cn/Download/index.aspx?lang=cn ) ）
+
+下载相应驱动的安装包，如
 
 `NVIDIA-Linux-x86_64-430.26.run`，然后执行`./NVIDIA-Linux-x86_64-430.26.run`运行安装程序（注意驱动安装可能要求特定版本的gcc，可能和cuda编译需要的gcc版本不一致，所以可以先安装相应版本的gcc，安装完驱动后再换回来）
 
@@ -24,7 +28,7 @@
 
 有些lab需要opencv 库的支持，opencv的安装和配置参考：
 
-[openCV 安装和配置]: https://blog.csdn.net/Wangguang_/article/details/85762705
+[https://blog.csdn.net/Wangguang_/article/details/85762705](https://blog.csdn.net/Wangguang_/article/details/85762705)
 
 安装好了opencv之后，要想正确运行make 来编译自己的程序，还需要修改一下Makefile
 
