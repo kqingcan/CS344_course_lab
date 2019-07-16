@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/HW1.dir/main.o CMakeFiles/HW1.dir/reference_calc.o CMakeFiles/HW1.dir/compare.o CMakeFiles/HW1.dir/HW1_generated_student_func.cu.o  -o HW1  -L/usr/local/cuda-9.0/lib64 /usr/local/cuda-9.0/lib64/libcudart_static.a -lpthread -ldl -lrt 
